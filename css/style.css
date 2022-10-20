@@ -1,0 +1,208 @@
+ /* Style the navigation bar */
+ .navbar {
+  width: 100%;
+  background-color: #d98880;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #f5b7b1 ;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+} 
+
+.bk-img {
+  background-image: url("IMG/foto1.jpg");
+}
+.center {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 400%;
+  text-align: center;
+}
+.header h2 {
+  font-size: 250%;
+  text-align: center;
+}
+
+.parraf p{
+  text-align: center;
+}
+
+
+
+.button-recetas {
+  text-align: center;
+}
+.button-recetas button {
+  background-color: #d98880;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  justify-content: center;
+}
+
+
+div.lista1 {
+  text-align: center;
+}
+
+
+div.lista1 ol {
+  
+  content: counter(item);
+  margin-left: 20px;
+  font-size: 100%;
+  color: #8b8169;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+div.lista1 ol ul{
+   
+    content: counter(item);
+    margin-right: 5px;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+
+  .hover1 {
+
+    font-size: 150%;
+    box-shadow: inset 0 0 0 0 #f5b7b1 ;
+    color: #000000;
+    margin: 0 -1rem;
+    padding: 0 1rem;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    text-decoration: none;
+  }
+  .hover1:hover {
+    box-shadow: inset 100px 0 0 0  #d98880 ;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+
+  /* RECETAS 1  */
+
+.receta-patata img{
+  float: left;
+  border-radius: 8px;
+  width: 40%;
+  height: auto;
+  margin-right: 50px;
+}
+
+.receta-patata h1{
+  margin-left: 5px;
+  text-align: center;
+}
+.receta-patata h2{
+
+  text-align: center;
+}
+.receta-patata h3{
+  text-align: center;
+}
+
+.receta-patata p{
+
+  text-align: center;
+}
+
+.receta-patata ul{
+  content: counter(item);
+  margin-left: 20px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 24px;
+}
+.receta-patata li{
+  content: counter(item);
+  margin-left: 20px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 24px;
+}
+
+ /* RECETAS 2  */
+
+ .receta-crepe img{
+  float: left;
+  border-radius: 8px;
+  width: 40%;
+  height: auto;
+  margin-right: 50px;
+}
+
+.receta-crepe h1{
+  margin-left: 5px;
+  text-align: center;
+}
+.receta-crepe h2{
+
+  text-align: center;
+}
+.receta-crepe h3{
+  text-align: center;
+}
+
+.receta-crepe p{
+
+  text-align: center;
+}
+
+.receta-crepe ul{
+  content: counter(item);
+  margin-left: 20px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 24px;
+}
+.receta-crepe li{
+  content: counter(item);
+  margin-left: 20px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+  font-size: 24px;
+}
+
+
+
